@@ -1,0 +1,72 @@
+@use "../colors" as *;
+
+window.notification-popups box.notifications {
+  padding: .5em;
+}
+
+.notification-list {
+  margin-top: 20px;
+  background: $on-surface-variant;
+  border-radius: 20px;
+  min-height: 400px;
+}
+
+.notification {
+  min-width: 300px;
+  border-radius: 11px;
+  padding: 1em;
+  margin: .5em;
+  background-color: $surface-container;
+
+  & > box:first-child {
+    margin-bottom: 10px;
+  }
+
+  &-icon {
+    min-width: 68px;
+    min-height: 68px;
+    margin-right: 1em;
+
+    image {
+      font-size: 58px;
+      margin: 5px;
+      color: $on-surface;
+    }
+
+    box {
+      min-width: 68px;
+      min-height: 68px;
+      border-radius: 7px;
+    }
+  }
+
+  &-title {
+    color: $on-surface;
+    font-size: 1.2em;
+  }
+
+  &-scrollable {
+    padding: 1px;
+      min-height: 60px;
+      min-width: 100px;
+    
+    &-body {
+      color: $outline;
+    }
+  }
+
+  &-actions {
+    color: $on-surface;
+    background: $surface-container-high;
+    border-radius: 20px;
+    min-height: 40px;
+  }
+
+  &-action-button label{
+    text-decoration-line: underline;
+  }
+
+  .critical {
+    border: 1px solid $error;
+  }
+}

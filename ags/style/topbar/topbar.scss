@@ -1,0 +1,18 @@
+@use "../colors" as *;
+@use "workspaces";
+@use "end";
+@use "tray";
+
+window.topbar {
+  all: unset;
+  background: $surface;
+}
+
+.applets {
+  background: $surface-container;
+  border-radius: 24px;
+  padding: 6px;
+  label {
+    color: $on-surface;
+  }
+}

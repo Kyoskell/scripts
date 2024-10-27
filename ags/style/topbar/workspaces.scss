@@ -1,0 +1,12 @@
+@use "../colors" as *;
+
+.topbar-workspaces {
+  background: $surface-container;
+  padding: 10px;
+  border-radius: 24px;
+  button {
+    color: $on-surface;
+    font-size: 24px;
+  }
+  margin-left: 100px;
+}

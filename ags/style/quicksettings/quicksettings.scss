@@ -1,0 +1,13 @@
+@use "../colors" as *;
+@use "header";
+@use "center";
+@use "footer";
+
+window.QuickSettings {
+  background: $surface-bright;
+  border-radius: 25px;
+  > box {
+    min-width: 450px;
+    min-height: 400px;
+  }
+}

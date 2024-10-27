@@ -1,0 +1,14 @@
+@use "../colors" as *;
+
+.nmtray-box {
+  .center {
+    min-height: 300px;
+    margin: 0 0 20px 20px;
+
+    .btn {
+      background: $surface-container-high;
+      border-radius: 20px;
+      padding: 4px;
+    }
+  }
+}

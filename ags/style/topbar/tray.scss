@@ -1,0 +1,15 @@
+@use "../colors" as *;
+
+window.NMTray {
+  background: $surface-container-high;
+  padding: 1px;
+  scrolledwindow {
+    min-width: 300px;
+    min-height: 400px;
+    padding: 10px;
+  }
+
+  .input-field {
+    margin: 10px;
+  }
+}

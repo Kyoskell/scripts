@@ -1,0 +1,238 @@
+window.notification-popups box.notifications {
+  padding: 0.5em;
+}
+
+.notification-list {
+  margin-top: 20px;
+  background: #c2c9bd;
+  border-radius: 20px;
+  min-height: 400px;
+}
+
+.notification {
+  min-width: 300px;
+  border-radius: 11px;
+  padding: 1em;
+  margin: 0.5em;
+  background-color: #1c211b;
+}
+.notification > box:first-child {
+  margin-bottom: 10px;
+}
+.notification-icon {
+  min-width: 68px;
+  min-height: 68px;
+  margin-right: 1em;
+}
+.notification-icon image {
+  font-size: 58px;
+  margin: 5px;
+  color: #e0e4db;
+}
+.notification-icon box {
+  min-width: 68px;
+  min-height: 68px;
+  border-radius: 7px;
+}
+.notification-title {
+  color: #e0e4db;
+  font-size: 1.2em;
+}
+.notification-scrollable {
+  padding: 1px;
+  min-height: 60px;
+  min-width: 100px;
+}
+.notification-scrollable-body {
+  color: #8c9388;
+}
+.notification-actions {
+  color: #e0e4db;
+  background: #272b25;
+  border-radius: 20px;
+  min-height: 40px;
+}
+.notification-action-button label {
+  text-decoration-line: underline;
+}
+.notification .critical {
+  border: 1px solid #ffb4ab;
+}
+
+label .material_icon {
+  all: unset;
+  font-family: "Material Symbols Outlined, Material Symbols Filled";
+  font-size: 1.5em;
+}
+
+.topbar-workspaces {
+  background: #1c211b;
+  padding: 10px;
+  border-radius: 24px;
+  margin-left: 100px;
+}
+.topbar-workspaces button {
+  color: #e0e4db;
+  font-size: 24px;
+}
+
+.topbar .end {
+  margin-right: 100px;
+}
+.topbar .end button {
+  background: #1c211b;
+  border-radius: 24px;
+  min-height: 40px;
+  min-width: 40px;
+}
+.topbar .end label {
+  color: #e0e4db;
+}
+
+tray {
+  background: #1c211b;
+  border-radius: 16px;
+}
+
+window.NMTray {
+  background: #272b25;
+  padding: 1px;
+}
+window.NMTray scrolledwindow {
+  min-width: 300px;
+  min-height: 400px;
+  padding: 10px;
+}
+window.NMTray .input-field {
+  margin: 10px;
+}
+
+window.topbar {
+  all: unset;
+  background: #10140f;
+}
+
+.applets {
+  background: #1c211b;
+  border-radius: 24px;
+  padding: 6px;
+}
+.applets label {
+  color: #e0e4db;
+}
+
+.QuickSettings .header {
+  margin: 15px;
+}
+.QuickSettings .header image {
+  border: 1px solid #e0e4db;
+  border-radius: 50%;
+  min-width: 40px;
+  background: #235024;
+  color: #bcf0b4;
+}
+.QuickSettings .header button {
+  background: #1c211b;
+  color: #e0e4db;
+  border-radius: 24px;
+  min-width: 40px;
+  min-height: 40px;
+}
+.QuickSettings .header separator {
+  min-width: 2px;
+  margin: 0 5px;
+  background: #e0e4db;
+}
+
+.QuickSettings .center {
+  padding: 0 20px;
+}
+.QuickSettings .center button {
+  min-width: 150px;
+  min-height: 40px;
+  background: #272b25;
+  border-radius: 24px;
+  padding: 6px;
+}
+.QuickSettings .center button.active {
+  background: #e0e4db;
+}
+.QuickSettings .center button.active label {
+  color: #2d322c;
+}
+.QuickSettings .center button label {
+  color: #e0e4db;
+}
+
+.QuickSettings .footer {
+  margin: 0 20px;
+}
+.QuickSettings .footer box {
+  margin-top: 12px;
+}
+.QuickSettings .footer box label {
+  margin-right: 20px;
+  color: #e0e4db;
+}
+.QuickSettings .footer box trough {
+  min-height: 24px;
+  min-width: 400px;
+  border-radius: 24px;
+  background-color: #235024;
+}
+.QuickSettings .footer box trough slider {
+  background: #bcf0b4;
+  min-height: 24px;
+  min-width: 24px;
+  border-radius: 24px;
+}
+.QuickSettings .footer box trough highlight {
+  background: #3b693a;
+  border-radius: 24px;
+}
+
+window.QuickSettings {
+  background: #363a34;
+  border-radius: 25px;
+}
+window.QuickSettings > box {
+  min-width: 450px;
+  min-height: 400px;
+}
+
+.nmtray-box .center {
+  min-height: 300px;
+  margin: 0 0 20px 20px;
+}
+.nmtray-box .center .btn {
+  background: #272b25;
+  border-radius: 20px;
+  padding: 4px;
+}
+
+.nmtray {
+  background: #363a34;
+}
+.nmtray-box {
+  min-width: 300px;
+}
+
+* {
+  all: unset;
+}
+
+scrollbar {
+  all: unset;
+}
+scrollbar trough {
+  color: #363a34;
+  background-color: #363a34;
+  min-width: 0px;
+}
+scrollbar trough slider {
+  background-color: #363a34;
+  color: #363a34;
+  min-width: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */

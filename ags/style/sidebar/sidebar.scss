@@ -1,0 +1,10 @@
+@use "../colors" as *;
+
+.sidebar {
+  background: $surface-bright;
+  
+  > box {
+    min-width: 40px;
+    margin: 40px 0;
+  }
+}
