@@ -1,9 +1,0 @@
-@use "../colors" as *;
-@use "center";
-
-.nmtray {
-  background: $surface-bright;
-  &-box {
-    min-width: 300px;
-  }
-}

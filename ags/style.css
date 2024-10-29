@@ -200,23 +200,6 @@ window.QuickSettings > box {
   min-height: 400px;
 }
 
-.nmtray-box .center {
-  min-height: 300px;
-  margin: 0 0 20px 20px;
-}
-.nmtray-box .center .btn {
-  background: #272b25;
-  border-radius: 20px;
-  padding: 4px;
-}
-
-.nmtray {
-  background: #363a34;
-}
-.nmtray-box {
-  min-width: 300px;
-}
-
 * {
   all: unset;
 }

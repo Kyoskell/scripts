@@ -1,5 +1,4 @@
 import { MaterialIcon } from "../../../utils/materialIcon.js";
-import { NMTray } from "../../tray/main.js";
 const network = await Service.import('network');
 
 const material_symbols = {
@@ -12,7 +11,6 @@ const material_symbols = {
 
 export const WifiIndicator = MaterialIcon({
   size: 24,
-  visible: true,
 }).hook(network, (self) => {
   if (network.wifi.enabled) {
     self.tooltip_text = network.wifi.ssid || "Unknown";
@@ -24,6 +22,5 @@ export const WifiIndicator = MaterialIcon({
 })
 
 export const Wifi = Widget.Button({
-  on_clicked: () => App.toggleWindow(String(NMTray.name)),
   child: WifiIndicator
 })
