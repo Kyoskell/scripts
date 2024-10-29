@@ -51,9 +51,13 @@ exec ags
 #===================#
 # Window appearance #
 #===================#
+set $opacity 0.85
 gaps inner 10
 default_border pixel 0
 smart_gaps on
+
+# Set window transparency
+for_window [class=".*"] opacity $opacity
 #===================#
 #  Layout keybind   #
 #===================#
