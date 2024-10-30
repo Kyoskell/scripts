@@ -6,6 +6,9 @@ export const DoNotDisturb = toggleBtn({
   tooltip: "Do not disturb",
   label: "Do not disturb",
 }).hook(notifications, (self) => {
+  self.on_clicked = function() {
+    notifications.dnd = !notifications.dnd;
+  };
   if (notifications.dnd) {
     self.class_name = "active";
   }
