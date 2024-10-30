@@ -16,8 +16,5 @@ export const Network = toggleBtn({
 }).hook(network, (self) => {
   self.child.children[0].label = material_symbols[network.wifi.icon_name] || "signal_wifi_off";
   self.tooltip_text = network.wifi.ssid;
-
-  if (network.wifi.enabled) {
-    self.class_name = "active";
-  }
+  self.toggleClassName("active", network.wifi.enabled == true);
 })

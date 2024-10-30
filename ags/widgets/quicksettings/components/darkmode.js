@@ -10,8 +10,5 @@ export const DarkMode = toggleBtn({
   self.on_clicked = function () {
     config.dark_theme.updateValue(!config.dark_theme.value)
   };
-
-  if (config.dark_theme.value) {
-    self.class_name = "active";
-  };
+  self.toggleClassName("active", config.dark_theme.value == true)
 })
