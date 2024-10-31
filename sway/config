@@ -254,7 +254,6 @@ bindsym $mod+Shift+r mode "resize"
     bindsym $mod+Print exec grim
 
 # Floating windows
-for_window [app_id="AppFlowy"] floating enable
 for_window [window_type="dialog"] floating enable 
 for_window [window_role="dialog"] floating enable
 for_window [app_id="libreoffice-*"] floating enable
