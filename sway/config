@@ -57,12 +57,19 @@ default_border pixel 0
 smart_gaps on
 
 # Set window transparency
-for_window [class=".*"] opacity $opacity
+for_window [app_id="foot"] opacity $opacity
+
+# for javafx
+for_window [class="tdapp.App"] floating enable
 #===================#
 #  Layout keybind   #
 #===================#
 bindsym $mod+space+Return layout toggle splith tabbed
 bindsym $mod+Tab focus right
+#===================#
+#  Keyboard bug fix #
+#===================#
+# input * repeat_delay 750
 #===================#
 #  GTK/Icon themes  #
 #===================#
@@ -80,12 +87,12 @@ exec --no-startup-id fcitx -d
 #
 # Example configuration:
 #
-#   input "2:14:SynPS/2_Synaptics_TouchPad" {
-#       dwt enabled
-#       tap enabled
-#       natural_scroll enabled
-#       middle_emulation enabled
-#   }
+input "SYNA7DB5:01 06CB:CD40 Touchpad" {
+    dwt enabled
+    tap enabled
+    natural_scroll enabled
+    middle_emulation enabled
+}
 #
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
