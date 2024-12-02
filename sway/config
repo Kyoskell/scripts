@@ -58,9 +58,6 @@ smart_gaps on
 
 # Set window transparency
 for_window [app_id="foot"] opacity $opacity
-
-# for javafx
-for_window [class="tdapp.App"] floating enable
 #===================#
 #  Layout keybind   #
 #===================#
